@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;    
+}
+
+.header{
+    padding: 10px;
+}
+
+.nav{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+}
+
+.link{
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a{
+    text-decoration: none;
+    color: #663399;
+}
+
+.buttons .kntk{
+    background-color: #663399;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+.buttons a:hover{
+    background-color: #fff;
+    color: #663399;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+.main .hero{
+    height: 400px;
+
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.main .hero .kiri{
+    width: 50%;
+    margin-top: 20px;
+    /* background-color: #6342e4; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main .hero .kiri h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main .hero .kiri span{
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+    color: #663399;
+}
+
+.main .hero .kiri p{
+    margin-bottom: 40px;
+}
+
+.main .hero .kanan{
+    width: 50%;
+    background-image: url("coretan.png");
+    background-repeat: no-repeat;
+    background-position: top;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main .hero img{
+    width: 400px;
+}
+
+.main .hero .bungkusan-tombol {
+    display: flex;
+}
+
+.bungkusan-tombol .tombol-kiri{
+    background-color: #663399;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.bungkusan-tombol .tombol-kanan{
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    color: #663399;
+    border: solid 1px #663399;
+
+}
+
+.main .abtme{
+    height: 300px;
+    background-color: #663399;
+    margin-top: 40px; 
+}
+
+.abtme h1{
+    margin-top: 20px;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.abtme p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pet{
+    height: 300px;
+
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.pet .petkiri{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.pet img{
+    width: 400px;
+}
+
+.pet .petkanan{
+    width: 100%;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pet .petkanan h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #663399;
+}
+
+.pet .petkanan h1{
+    margin-bottom: 20px;
+}
+
+.skill{
+    height: 1090px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.skill h1{
+    /* margin-top: 0px; */
+    /* color: #663399; */
+    font-size: 30px;
+    text-align: left;
+    /* background-color: #663399; */
+}
+
+.skill .container {
+    position: relative;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1050px;
+    height: 500px;
+    overflow: hidden;
+}
+.container .kotak,
+.container .text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.container .kotak {
+    top: 0;
+    left: 0;
+}
+.container:hover .kotak {
+    top: 0;
+}
+.container .kotak img {
+    width: 100%;
+}
+.container .text {
+    background: #663399;
+    top: 0;
+    left: 100%;
+    padding: 15px 30px;
+    opacity: 0.9;
+    filter: alpha(opacity=80);
+}
+.container:hover .text {
+    top: 0;
+    left: 0%;
+}
+.container .text h1 {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.container .text p {
+    font-size: 25px;
+
+    text-align: center;
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+.fight{
+    margin-top: 30px;
+}
+
+.skill .fight {
+    position: relative;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1050px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.fight .kotak,
+.fight .text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.fight .kotak {
+    top: 0;
+    left: 0;
+}
+.fight:hover .kotak {
+    top: 0;
+}
+.fight .kotak img {
+    width: 100%;
+}
+.fight .text {
+    background: #663399;
+    top: 0;
+    left: 100%;
+    padding: 15px 30px;
+    opacity: 0.9;
+    filter: alpha(opacity=80);
+}
+.fight:hover .text {
+    top: 0;
+    left: 0%;
+}
+.fight .text h1 {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.fight .text p {
+    font-size: 25px;
+
+    text-align: center;
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+.nehe{
+    margin-top: 100px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+.nehe h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.nehe .formm .doyo{
+    margin-top: 40px;
+    margin-left: 3%;
+    font-size: 20px;
+    width: 1000px;
+    border-color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-color: #663399;
+}
+
+.nehed .formm .buttn{
+    margin-top: 50px;
+    margin-left: 45%;
+    border-color: #fff;
+    background-color: #663399;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.copyri{
+    height: 50px;
+    background-color: #663399;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.copyri{
+    padding-top: 20px;
+}
